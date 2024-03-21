@@ -4,7 +4,7 @@
 
 ### Framework and libraries used
 
-[X] Frontend library: React Js
-[X] Styling: Tailwindcss
-[X] Icons: React Icons
-[X] Animation: Framer Motion
+- [X] Frontend library: React Js
+- [X] Styling: Tailwindcss
+- [X] Icons: React Icons
+- [X] Animation: Framer Motion
