@@ -30,7 +30,7 @@ const AddCard = ({ column, setCards }) => {
               placeholder="Add new task..."
               className="p-2 w-full rounded bg-black text-white border border-gray-100 placeholder:text-sm placeholder-violet-300 focus:outline-0"
             ></textarea>
-            <div className="mt-1.5 flex flex-row items-end justify-end gap-1.5 w-full">
+            <div className="mt-1.5 pb-12 flex flex-row items-end justify-end gap-1.5 w-full">
               <button
                 onClick={() => setAdding(false)}
                 className="px-3 py-1.5 text-sm text-neutral-400 transition-colors hover:text-neutral-50"
@@ -47,10 +47,10 @@ const AddCard = ({ column, setCards }) => {
           </motion.form>
         </>
       ) : (
-          <motion.button
-            layout
+        <motion.button
+          layout
           onClick={() => setAdding(true)}
-          className="flex flex-row items-center gap-3 w-full px-3 py-1.5 text-sm text-neutral-400 hover:text-neutral-50 transition-colors"
+          className="pb-12 flex flex-row items-center gap-3 w-full px-3 py-1.5 text-sm text-neutral-400 hover:text-neutral-50 transition-colors"
         >
           <span>Add card</span>
           <FiPlus />
